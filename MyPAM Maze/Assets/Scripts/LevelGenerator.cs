@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LevelGenerator : MonoBehaviour
 {
+    //These textures are created in Piskel, the online sprite editor. They are saved as PNGs, then in Import settings they are set to Read/Write, no compression, no filtering
     public Texture2D map;
 
     public ColourToPrefab[] colourMappings;
